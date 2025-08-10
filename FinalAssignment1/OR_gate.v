@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 08/05/2025 03:39:40 PM
+// Create Date: 08/05/2025 02:36:03 PM
 // Design Name: 
-// Module Name: NOT_gate
+// Module Name: OR_gate
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,9 +20,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module NOT_gate(
-    input a1,
-    output c1
-    );
-assign c1=~a1;
+module OR_gate(
+    input d,
+    input e,
+    output f);
+assign f=d||e;
 endmodule
